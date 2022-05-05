@@ -3,4 +3,4 @@ steps:
     commands:
       - pipenv install --deploy --dev
       - pipenv run py.test
-      - /Users/robertm/Desktop/ASTCLI/cx -h
+      - "C:\Users\cxadmin\Desktop\ast-cli\cx" scan create --project-name RobertMickleCLIWindows -s https://github.com/WebGoat/WebGoat.git --sast-preset-name "High and Medium" --branch "main"
